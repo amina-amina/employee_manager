@@ -1,0 +1,27 @@
+body{
+    
+   background-image: url('./contact-us-bg-3-C.jpg');
+   background-size: 100%;
+   background-repeat: no-repeat;
+   backdrop-filter: url('./contact-us-bg-3-C.jpg') blur(4px) ;
+   
+}
+
+.text-center{
+    margin-top: 100px;
+    position:absolute;
+    left:29%;
+}
+
+.main_btn{
+    border: 1px outset rgb(6, 16, 46);
+    background-color: rgb(6, 16, 46);
+    height:300px;
+    width:300px;
+    cursor:pointer;
+    font-size:30px;
+    color:white;
+    border-radius: 2%;
+
+}
+
