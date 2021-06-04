@@ -22,10 +22,44 @@ export default function MainPage() {
                 </header>
 
                 <main>
-                  <div className='text-center'>
-                  <button className='m-3 main_btn '>Demande Document</button>
-                  <button className='m-3 main_btn'>Demande Congé</button>
-                  </div>
+                  <section className='text-center'>
+                  <button className='m-3 main_btn '><span>Demande Document</span></button>
+                  <button className='m-3 main_btn'><span>Demande Congé</span></button>
+                  </section>
+<hr className="hr bg-light" />
+<section className="text-center  ">
+  <h2 className="text-white mb-5">Vacances</h2>
+<table class="table table-secondary table-striped">
+  <thead>
+    <tr>
+    
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+    
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      
+      <td >Larry the Bird</td>
+      <td >Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+</section>
                 </main>
             </body>
         </div>

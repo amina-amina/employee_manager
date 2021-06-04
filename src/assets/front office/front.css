@@ -3,25 +3,39 @@ body{
    background-image: url('./contact-us-bg-3-C.jpg');
    background-size: 100%;
    background-repeat: no-repeat;
-   backdrop-filter: url('./contact-us-bg-3-C.jpg') blur(4px) ;
+   backdrop-filter: url('./contact-us-bg-3-C.jpg') blur(5px) ;
    
 }
 
 .text-center{
     margin-top: 100px;
-    position:absolute;
-    left:29%;
+    position:relative;
+    
 }
 
 .main_btn{
-    border: 1px outset rgb(6, 16, 46);
-    background-color: rgb(6, 16, 46);
+   
+    background-color: rgba(3, 87, 102, 0.3);
     height:300px;
     width:300px;
     cursor:pointer;
     font-size:30px;
-    color:white;
-    border-radius: 2%;
-
+    color:rgb(191, 230, 231);
+    border-radius: 30%;
+    
+}
+.main_btn:hover{
+    background-color: rgb(254, 255, 255, 0.6);
+    color:rgb(2, 65, 77);
 }
 
+.table{
+    
+    position:relative;
+   
+}
+
+hr{
+    width:50%;
+    margin:0 auto;
+}
